@@ -25,7 +25,7 @@ const SidebarNav = () => {
         <Grommet full theme={grommet}>
             <Box fill direction="row">
                 <Nav background="#212121" width="90px" height="230px" Text color="#FFFF">
-                    {["angie userLogin"].map(label => (
+                    {["angie userLogin tasks"].map(label => (
                         <SidebarButton
                         
                             label={label} 

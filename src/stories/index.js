@@ -11,3 +11,4 @@ function Button({ text, color = "##FFFF00" }) {
 //I have passed in props for text and color (with a default value)
 
 export default Button;
+
