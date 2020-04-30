@@ -7,6 +7,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import AppsIcon from '@material-ui/icons/Apps';
 import PeopleIcon from '@material-ui/icons/People';
 import SettingsIcon from '@material-ui/icons/Settings';
+//import TasksIcon from '@material-ui/icons/Tasks';
 import HelpIcon from '@material-ui/icons/Help';
 import {useHistory, useLocation} from 'react-router-dom'
 import {localRoutes} from "../../data/constants";
@@ -60,6 +61,11 @@ const routes = [
             {
                 name: "Settings",
                 route: localRoutes.settings
+            },
+            {
+                name: "Tasks",
+                route: localRoutes.tasks,
+                //icon: TasksIcon
             },
         ]
     },

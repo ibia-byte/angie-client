@@ -37,7 +37,7 @@ export const localRoutes = {
     usersGroups: '/admin/user-groups',
     tags: '/admin/tags',
     settings: '/admin/settings',
-
+    tasks: '/tasks',
     help: '/help'
 }
 
@@ -59,6 +59,7 @@ export const remoteRoutes = {
     contactsEmail: url + '/api/crm/emails',
     tags: url + '/api/tags',
     users: url + '/api/users',
+    
     userGroups: url + '/api/user-groups',
     contactsPhone: url + '/api/crm/phones',
     contactsAddress: url + '/api/crm/addresses',
@@ -68,10 +69,10 @@ export const remoteRoutes = {
     groups: url + '/api/groups/groups',
     groupsCombo: url + '/api/groups/combo',
     groupsCategories: url + '/api/groups/categories',
-
+    tasks: url + '/api/tasks',
     contactsCompany: url + '/api/crm/contact/company',
     contactsAvatar: url + '/api/crm/contact/avatar',
-
+    
 }
 
 

@@ -3,6 +3,7 @@ import {Link, Route, Switch} from 'react-router-dom'
 import {localRoutes} from "../data/constants";
 import Dashboard from "./dashboard/Dashboard";
 import Contacts from "./contacts/Contacts";
+import AddTasks from "./tasks/AddTasks";
 import ContactDetails from "./contacts/details/Details";
 import Settings from "./settings/Settings";
 import Layout from "../components/layout/Layout";
@@ -21,6 +22,7 @@ const ContentSwitch = () => {
         <Route path={localRoutes.usersGroups} component={UserGroups}/>
         <Route path={localRoutes.groups} component={Groups}/>
         <Route path={localRoutes.settings} component={Settings}/>
+        <Route path={localRoutes.tasks} component={AddTasks} />
         <Route component={NoMatch}/>
     </Switch>
 }
